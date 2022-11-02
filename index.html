@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sárostókerti Sürgöny Kennel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pics/logo.png" alt="kutyus"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">FŐOLDAL</a></li>
+                    <li><a href="">BEMUTATKOZÁS</a></li>
+                    <li><a href="">KUTYUSAINK</a></li>
+                    <li><a href="">ELÉRHETŐSÉGEK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>Jack Russel Kiskutyák</h1>
+    <p>Fajtiszta, féregtelenített, chippelt kölyök kutyák</p>
+    <a href="" class="hero-btn">Bővebben</a>
+</div>
+
+    </section>
+
+<section class="info">
+    <h1>Tudnivalók a kutyákról</h1>
+    <p>Praesent et purus sed ipsum pulvinar auctor. Sed condimentum fringilla nulla ut aliquet.</p>
+
+    <div class="row">
+        <div class="info-col">
+            <h3>Tanulékony</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lectus id mauris commodo iaculis eu nec ex. In hac habitasse platea dictumst. Suspendisse potenti.</p>
+        </div>
+        <div class="info-col">
+            <h3>Játékos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lectus id mauris commodo iaculis eu nec ex. In hac habitasse platea dictumst. Suspendisse potenti.</p>
+        </div>
+        <div class="info-col">
+            <h3>Intelligens</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lectus id mauris commodo iaculis eu nec ex. In hac habitasse platea dictumst. Suspendisse potenti.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="kepek">
+    <div class="row">
+        <div class="kepek-col">
+            <img src="pics/kep1.jpg">
+            <div class="layer">
+                <h3></h3>
+            </div>
+        </div>
+        <div class="kepek-col">
+            <img src="pics/kep2.jpg">
+            <div class="layer">
+                <h3></h3>
+            </div>
+        </div>
+        <div class="kepek-col">
+            <img src="pics/kep3.jpg">
+            <div class="layer">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer">
+    <h4>Rólunk</h4>
+    <p>Suspendisse dolor est, laoreet et tincidunt a, tristique et ligula. Donec et lorem at arcu convallis sodales aliquam at eros. <br>Sed efficitur aliquet iaculis. Morbi vel sapien eget nibh consequat laoreet.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-square"></i>
+    </div>
+</section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>
